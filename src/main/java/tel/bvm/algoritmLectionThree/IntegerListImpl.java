@@ -102,7 +102,7 @@ public class IntegerListImpl implements IntegerList {
 
         validateItem(item);
         validateSize();
-//        validateIndex(index);
+        validateIndex(index);
 
         if (index == size) {
             storage[size++] = item;
